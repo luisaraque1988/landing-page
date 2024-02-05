@@ -1,0 +1,54 @@
+/* First section of the webpage*/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 250px;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, a {
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.container {
+    flex-basis: 300px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
