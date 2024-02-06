@@ -1,6 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
 /* First section of the webpage*/
 
 .header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
@@ -56,13 +64,12 @@
 /* the second part of the webpage*/
 
 .second {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 16px;
-    margin-left: 220px;
-    margin-right: 220px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     align-items: center;
+    margin: 0;
 
     h2 {
         font-size: 36px;
@@ -93,11 +100,32 @@
     }
 }
 
+/* third part */
 
+.third {
+    background-color: #e5e7eb;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 90px 220px;
+       
 
-
-
-
-
-
+        .para {
+            font-size: 36px;
+            font-style: light italic;
+            color: #1f2937;
+            width: 800px;
+        }
+        .by{
+            align-self: flex-end;
+        }
+    }
+    
+    
+}
 
