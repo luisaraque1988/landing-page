@@ -5,50 +5,52 @@
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
-}
 
-.top, .bottom {
-    display: flex;
-    justify-content: space-between;
-    margin: 16px 220px;
-    align-items: center;
-}
+    .top, .bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px 220px;
+        align-items: center;
 
-.bottom {
-    margin-bottom: 50px;
-}
+        .logo {
+            font-size: 24px;
+        }
 
-.logo {
-    font-size: 24px;
-}
+        .links {
+            display: flex;
+            gap: 16px;
+            list-style-type: none;
 
-.links {
-    display: flex;
-    gap: 16px;
-    list-style-type: none;
-}
+            p, a {
+                color: #e5e7eb;
+                font-size: 18px;
+                text-decoration: none;
+            }
 
-p, a {
-    color: #e5e7eb;
-    font-size: 18px;
-    text-decoration: none;
-}
+        }
 
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-    margin-top: 0;
-}
+    }
 
-.container {
-    flex-basis: 300px;
-}
+    .bottom {
+        margin-bottom: 50px;
 
-.sign-up {
-    background-color: #3882f6;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
+        .container {
+            flex-basis: 300px;
+
+            h1 {
+                font-size: 48px;
+                font-weight: 800;
+                margin-top: 0;
+            }
+
+            .sign-up {
+                background-color: #3882f6;
+                border: none;
+                border-radius: 8px;
+                padding: 10px 20px;
+            }
+        }
+    }
 }
 
 /* the second part of the webpage*/
@@ -61,33 +63,41 @@ h1 {
     margin-right: 220px;
     margin-bottom: 80px;
     align-items: center;
+
+    h2 {
+        font-size: 36px;
+        color: #1f2937;
+        font-weight: 800;
+    }
+
+    .pictures {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            flex-basis: 80px;
+
+            .image {
+                border: solid #3882f6;
+                border-radius: 8px;
+                width: 160px;
+                height: 160px;
+                margin: 10px;
+            }
+        } 
+    }
 }
 
-h2 {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 800;
-}
 
-.pictures {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
 
-}
 
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    flex-basis: 80px;
-} 
 
-.square {
-    border: solid #3882f6;
-    border-radius: 8px;
-    width: 160px;
-    height: 160px;
-    margin: 10px;
-}
+
+
+
+
